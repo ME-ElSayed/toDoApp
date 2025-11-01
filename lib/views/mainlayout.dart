@@ -56,7 +56,7 @@ class _MainLayoutState extends State<MainLayout> {
             child: FloatingActionButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30)),
-                backgroundColor: (isDeleting) ? Colors.red : Colors.green,
+                backgroundColor: (isDeleting) ? Colors.red : Colors.black,
                 elevation: 5,
                 onPressed: () => homeController.changeTab(1),
                 child: Icon(
